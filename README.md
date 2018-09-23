@@ -26,6 +26,14 @@ python         tail -f /dev/null         Up
 selenium-hub   /opt/bin/entry_point.sh   Up      0.0.0.0:4444->4444/tcp
 ```
 
+
+# 実行方法
+1. ./実行したいファイル
+2. open vnc://localhost:5900
+3. password : secret
+
+
+
 ### 終了方法
 
 ```bash
@@ -43,3 +51,9 @@ script/imagesディレクトリに画像ファイルが保存されます。
 
 ### VNC接続によるデバッグ
 `VNC`で接続するとブラウザの動きを確認しながらデバッグすることができます。Docker環境のIPアドレスにVNC(デフォルトは5900番ポート)でアクセスした上で、サンプルスクリプトを実行してみてください。デフォルトのパスワードは"secret"です。
+
+
+### 参考
+https://qiita.com/sikkim/items/447b72e6ec45849058cd
+
+
