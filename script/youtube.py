@@ -18,7 +18,7 @@ driver = webdriver.Remote(
 file = open('./list/youtube.txt', 'r')
 words = file.read().split(',\n')
 
-print("open vnc://localhost:5900")
+print("open vnc://localhost:5900 && hit Enter && Password : secret")
 input()
 
 # YouTubeを開く
